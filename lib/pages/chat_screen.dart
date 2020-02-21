@@ -17,7 +17,19 @@ class _ChatScreenState extends State<ChatScreen> {
           leading: CircleAvatar(
             backgroundImage: AssetImage(chatData[index].avatar),
           ),
-          title: Row(),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Text(chatData[index].name,
+                  style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(chatData[index].time,
+                  style: TextStyle(fontSize: 14, color: Colors.grey))
+            ],
+          ),
+          subtitle: Container(
+              padding: EdgeInsets.only(top: 5),
+              child: Text(chatData[index].message,
+                  style: TextStyle(fontSize: 15, color: Colors.grey))),
         )
       ]),
     );
