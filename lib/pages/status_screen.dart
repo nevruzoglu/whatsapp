@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 class StatusScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Scaffold(body: Text('Status')),
-    );
+    return Center(child: Text('Status'));
   }
 }

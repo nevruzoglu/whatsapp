@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 class CallScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Scaffold(body: Text('Calls')),
-    );
+    return Center(child: Text('Calls'));
   }
 }

@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 class ChatScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Scaffold(body: Text('Chat')),
-    );
+    return Center(child: Text('Chat'));
   }
 }
