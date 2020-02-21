@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'pages/camera_screen.dart';
+import 'pages/chat_screen.dart';
+import 'pages/status_screen.dart';
+import 'pages/call_screen.dart';
 
 class WhatsAppHome extends StatefulWidget {
   @override
@@ -34,7 +38,12 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
         ),
         body: TabBarView(
           controller: _tabController,
-          children: <Widget>[],
+          children: <Widget>[
+            CameraScreen(),
+            ChatScreen(),
+            CallScreen(),
+            StatusScreen()
+          ],
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
