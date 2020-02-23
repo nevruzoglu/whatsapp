@@ -22,8 +22,8 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-
     double yourWidth = width / 5;
+
     return Container(
       child: Scaffold(
         appBar: AppBar(

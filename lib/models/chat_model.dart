@@ -15,7 +15,7 @@ class ChatModel {
 
 List<ChatModel> chatData = [
   ChatModel(
-      name: 'Tomothy Nguyen',
+      name: 'Burak Nux',
       message: 'Lovely, lets meet at Kingston!',
       time: '8:19 AM',
       avatar: 'lib/assets/avatars/Avatar1.jpg'),
